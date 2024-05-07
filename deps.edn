@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {net.mikera/core.matrix {:mvn/version "0.63.0"}
+        clojure2d/clojure2d {:mvn/version "1.4.5"}
+        clatrix/clatrix {:mvn/version "0.5.0"}}
+ :aliases {:dev {:extra-paths ["dev"]}}}
